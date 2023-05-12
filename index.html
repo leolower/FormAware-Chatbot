@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>AI Pitch Deck Assistant</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1 class="display-4">AI Pitch Deck Assistant</h1>
+          <p class="lead">A quick AI pitch deck assistant to help you write your pitch deck.</p>
+          <hr class="my-4">
+          <p>This AI pitch deck assistant is a quick and easy way to write your pitch deck. Just select the section you
+            want to edit, and edit the section. Your deck will preview on the right/bottom panel.</p>
+          <p>Ask the chatbot to help you improve it, it will update the form automatically. You can even type a name and let it do the rest.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Generate Deck</h5>
+            <form id="form-container"></form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Deck Preview</h5>
+            <div id="preview-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chatbot-container">
+      <div class="chatbot-messages">
+        <div class="chatbot-message chatbot-message-chatbot">
+          <div class="chatbot-message-text">
+            <p>Hello, how can I help you with your deck?</p>
+          </div>
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" placeholder="Type your message here..." name="chat-input">
+        <button id="submit-chat">
+          <div class="spinner-border text-primary d-none" role="status">
+            <span class="sr-only">Thinking...</span>
+          </div>
+          <div class="submit">
+            <i class="fas fa-paper-plane"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="form-generator.js"></script>
+  <script src="preview-generator.js"></script>
+
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

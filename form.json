@@ -1,0 +1,88 @@
+{
+    "form": [
+        {
+            "name": "companyName",
+            "title": "Company Name",
+            "description": "What is the name of your startup or business?",
+            "type": "text"
+        },
+        {
+            "name": "tagline",
+            "title": "Tagline",
+            "description": "What is a brief, catchy phrase that describes your company or product?",
+            "type": "text"
+        },
+        {
+            "name": "problem",
+            "title": "Problem",
+            "description": "What is the problem your startup aims to solve?",
+            "type": "textarea"
+        },
+        {
+            "name": "solution",
+            "title": "Solution",
+            "description": "What is your product or service and how does it solve the problem?",
+            "type": "textarea"
+        },
+        {
+            "name": "targetAudience",
+            "title": "Target Audience",
+            "description": "Who are your target customers or users?",
+            "type": "textarea"
+        },
+        {
+            "name": "uniqueSellingPoints",
+            "title": "Unique Selling Points",
+            "description": "What are the key features that differentiate your product or service from competitors?",
+            "type": "textarea"
+        },
+        {
+            "name": "businessModel",
+            "title": "Business Model",
+            "description": "How does your company plan to generate revenue and create value?",
+            "type": "textarea"
+        },
+        {
+            "name": "traction",
+            "title": "Traction & Milestones",
+            "description": "What are your demonstrated progress and achievements?",
+            "type": "textarea"
+        },
+        {
+            "name": "marketingStrategy",
+            "title": "Marketing Strategy",
+            "description": "What are the channels and tactics you will use to acquire customers and grow the business?",
+            "type": "textarea"
+        },
+        {
+            "name": "competitiveLandscape",
+            "title": "Competitive Landscape",
+            "description": "What is the analysis of the competition, including direct and indirect competitors and potential threats?",
+            "type": "textarea"
+        },
+        {
+            "name": "teamMembers",
+            "title": "Team Members",
+            "description": "Who are the key team members and what are their relevant experience and roles in the company?",
+            "type": "textarea"
+        },
+        {
+            "name": "financialProjections",
+            "title": "Financial Projections",
+            "description": "What are the high-level financial forecasts for the next few years?",
+            "type": "textarea"
+        },
+        {
+            "name": "fundingRequirements",
+            "title": "Funding Requirements",
+            "description": "How much funding is the company seeking and how will it be used to achieve its goals?",
+            "type": "textarea"
+        },
+        {
+            "name": "callToAction",
+            "title": "Call-to-Action",
+            "description": "What is the desired action from the audience, such as investment, partnership, or other desired action?",
+            "type": "textarea"
+        }
+    ]
+}
