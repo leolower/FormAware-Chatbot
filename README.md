@@ -24,6 +24,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - leolower@gmail.com
+Leo Lower - leolower@gmail.com
 
 Project Link: [https://github.com/leolower/FormAware-Chatbot](https://github.com/leolower/FormAware-Chatbot)
