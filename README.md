@@ -3,6 +3,7 @@
 FormAware-Chatbot is an experimental chatbot prototype that demonstrates the power of a form-aware approach in interactive and dynamic user interfaces. The current application of this prototype is a startup pitch deck generator which showcases the potential and capabilities of this approach.
 
 [![Run on Repl.it](https://repl.it/badge/github/leolower/FormAware-Chatbot)](https://repl.it/github/leolower/FormAware-Chatbot)
+or checkout a [live demo](https://formaware-chatbot.leolower.repl.co/)
 
 ## Objective
 
